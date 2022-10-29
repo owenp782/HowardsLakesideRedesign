@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass&display=swap');
+body{
+    background-color: aquamarine;
+    color: white;
+    font-family: 'Overpass', sans-serif;
+    background-color:darkblue;
+    background-size: 250px;
+    margin: 0px;
+}
+br{
+    clear:both;
+}
+.topbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width:100%;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.topbar h1{
+    padding: 5px;
+    margin-left: 25px;
+    float: left;
+}
+.topbar a{
+    padding: 5px;
+    margin-right: 25px;
+    float:right;
+    font-size: 40px;
+    text-decoration: none;
+    color:white;
+}
+.topbar a:hover{
+    background-color: aquamarine;
+}
+.main{
+    margin-top: 125px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+    width: 90%;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.6);
+    font-size: 1.2em;
+}
+.main .left{
+    margin: 10px;
+    padding: 10px;
+    float: left;
+    width: 55%;
+    border: 2px solid white;
+}
+.main .left img{
+    float: right;
+    width: 40%;
+    padding:10px;
+    border-radius: 20px;
+}
+.main .left h2{
+    text-align: center;
+    font-size: 1.75em;
+    font-style: italic;
+}
+.main .left p{
+    margin-left: 2%;
+}
+.main .right{
+    margin: 10px;
+    padding: 10px;
+    float: right;
+    width: 35%;
+    border: 2px solid white;
+}
+.main .right h2{
+    text-align: center;
+}
+.main2{
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+    width: 80%;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.main2 .left{
+    margin: 10px;
+    padding: 10px;
+    float: left;
+    width: 50%;
+    border: 2px solid white;
+}
+.main2 .right{
+    margin: 10px;
+    padding: 10px;
+    float: right;
+    width: 30%;
+    border: 2px solid white;
+    text-align: center;
+}
+.main2 .right img{
+    border-radius: 20px;
+}
+.main2 .left h2, .main2 .left p{
+    text-align: center;
+}
+.baitleft{
+    float:left;
+    width:45%;
+    border: 1px dotted white;
+    border-radius: 10px;
+    padding: 5px;
+}
+.baitright{
+    float:right;
+    width:45%;
+    border: 1px dotted white;
+    border-radius: 10px;
+    padding: 5px;
+}
+.baitleft p, .baitright p{
+    font-size: 1.1em;
+    margin-left: 10px;
+}
+.facebook{
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px;
+    width: 60%;
+    border: 4px dashed white;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.6);
+    text-align: center;
+}
+.facebook div{
+    width:50%;
+    float:left;
+}
+.facebook h2{
+    font-size: 2em;
+}
+.facebook img{
+    float:right;
+    width:45%;
+    border-radius: 50%;
+}
+.facebook a{
+    margin-top:100px;
+    padding:15px;
+    text-decoration: none;
+    font-size:1.75em;
+    background-color: cadetblue;
+    border-radius: 10px;
+    color: white;
+}
+.facebook a:hover{
+    background-color: aquamarine;
+}
+footer{
+    background-color: rgba(0, 0, 0, 0.6);
+    width:100%;
+    margin:50px 0px 0px 0px;
+}
+footer p{
+    padding:25px;
+    font-variant: small-caps;
+}
+@media screen and (max-width:1024px) {
+    body{
+        background-color: red;
+    }
+    .main .left, .main .right, .main2 .left, .main2 .right{
+        float: none;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+@media screen and (max-width: 768px) {
+    .topbar{
+        display:none;
+    }
+    .main {
+        margin-top: 50px;
+    }
+    .facebook img{
+        display:none;
+    }
+    .facebook div{
+        width:90%;
+        float:none;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
