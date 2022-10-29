@@ -1,2 +1,1 @@
-# Howard's Lakeside General Store Redesign
-yup
+# Howard's Lakeside General Store Site Redesign
