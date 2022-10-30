@@ -3,8 +3,8 @@ body{
     background-color: aquamarine;
     color: white;
     font-family: 'Overpass', sans-serif;
-    background-color:darkblue;
-    background-size: 250px;
+    background-image: url(bait_img/bg.jpg);
+    background-size: cover;
     margin: 0px;
 }
 br{
@@ -16,6 +16,7 @@ br{
     left: 0;
     width:100%;
     background-color: rgba(0, 0, 0, 0.6);
+    box-shadow: 0px 0px 20px white;
 }
 .topbar h1{
     padding: 5px;
@@ -39,9 +40,10 @@ br{
     margin-right: auto;
     padding: 15px;
     width: 90%;
-    border-radius: 10px;
+    border-radius: 20px;
     background-color: rgba(0, 0, 0, 0.6);
     font-size: 1.2em;
+    box-shadow: 0px 0px 20px white;
 }
 .main .left{
     margin: 10px;
@@ -49,6 +51,7 @@ br{
     float: left;
     width: 55%;
     border: 2px solid white;
+    border-radius: 10px;
 }
 .main .left img{
     float: right;
@@ -70,6 +73,7 @@ br{
     float: right;
     width: 35%;
     border: 2px solid white;
+    border-radius: 10px;
 }
 .main .right h2{
     text-align: center;
@@ -80,8 +84,9 @@ br{
     margin-right: auto;
     padding: 15px;
     width: 80%;
-    border-radius: 10px;
+    border-radius: 20px;
     background-color: rgba(0, 0, 0, 0.6);
+    box-shadow: 0px 0px 20px white;
 }
 .main2 .left{
     margin: 10px;
@@ -89,6 +94,7 @@ br{
     float: left;
     width: 50%;
     border: 2px solid white;
+    border-radius: 10px;
 }
 .main2 .right{
     margin: 10px;
@@ -96,6 +102,7 @@ br{
     float: right;
     width: 30%;
     border: 2px solid white;
+    border-radius: 10px;
     text-align: center;
 }
 .main2 .right img{
@@ -108,14 +115,14 @@ br{
     float:left;
     width:45%;
     border: 1px dotted white;
-    border-radius: 10px;
+    border-radius: 5px;
     padding: 5px;
 }
 .baitright{
     float:right;
     width:45%;
     border: 1px dotted white;
-    border-radius: 10px;
+    border-radius: 5px;
     padding: 5px;
 }
 .baitleft p, .baitright p{
@@ -128,14 +135,17 @@ br{
     margin-right: auto;
     padding: 50px;
     width: 60%;
-    border: 4px dashed white;
-    border-radius: 10px;
+    border-radius: 20px;
     background-color: rgba(0, 0, 0, 0.6);
     text-align: center;
+    box-shadow: 0px 0px 20px white;
 }
 .facebook div{
     width:50%;
     float:left;
+    border: 2px solid white;
+    padding: 5px 5px 40px 5px;
+    border-radius: 10px;
 }
 .facebook h2{
     font-size: 2em;
@@ -161,6 +171,7 @@ footer{
     background-color: rgba(0, 0, 0, 0.6);
     width:100%;
     margin:50px 0px 0px 0px;
+    box-shadow: 0px 0px 20px white;
 }
 footer p{
     padding:25px;
@@ -176,14 +187,6 @@ footer p{
         margin-left: auto;
         margin-right: auto;
     }
-}
-@media screen and (max-width: 768px) {
-    .topbar{
-        display:none;
-    }
-    .main {
-        margin-top: 50px;
-    }
     .facebook img{
         display:none;
     }
@@ -192,5 +195,13 @@ footer p{
         float:none;
         margin-left: auto;
         margin-right: auto;
+    }
+}
+@media screen and (max-width: 768px) {
+    .topbar{
+        display:none;
+    }
+    .main {
+        margin-top: 50px;
     }
 }
