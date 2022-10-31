@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Overpass&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
 body{
     background-color: aquamarine;
     color: white;
-    font-family: 'Overpass', sans-serif;
+    font-family: 'Arvo', sans-serif;
     background-image: url(bait_img/lake_bg.jpg);
     background-size: 100% 100%;
     background-attachment: fixed;
@@ -176,7 +176,6 @@ footer{
 }
 footer p{
     padding:25px;
-    font-variant: small-caps;
 }
 @media screen and (max-width:1024px) {
     body{
