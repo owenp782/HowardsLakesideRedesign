@@ -178,9 +178,6 @@ footer p{
     padding:25px;
 }
 @media screen and (max-width:1024px) {
-    body{
-        background-color: red;
-    }
     .main .left, .main .right, .main2 .left, .main2 .right{
         float: none;
         width: 90%;
